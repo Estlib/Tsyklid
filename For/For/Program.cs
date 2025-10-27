@@ -19,10 +19,23 @@
 //    objectCount++; // tsükli inkrementatsioon
 //}
 //Console.WriteLine("Oled sisestanud järgnevad objektid"); // sõnum
-//for (int i = 0; i < objectArray.Length; i++) 
+//for (int i = 0; i < objectArray.Length; i++)
 //{
-//    Console.WriteLine($"{i+1}. element on: {objectArray[i]}");
+//    Console.WriteLine($"{i + 1}. element on: {objectArray[i]}");
 //    //kuvame välja reanumbri koos vastava elemendiga, muutuja i abil.
 //}
 //Console.ReadLine(); //peatame programmi klahvisisestuse taha
 
+// kirjuta programm mis küsib kasutajalt tema nime ja parooli
+// kui parool on vale, anna nimeline teavitus
+// kui nimi on vale, ütle et isik pole registreerunud
+// tekita massiiv suurusega 3
+// kui mõlemad on õiged, siis while tsüklis küsi kasutajalt tema 3 lemmikloomanime
+// kuva talle sisestuste arv (mitu ta sisestas)
+// ning küsi milline on ta lemmikuim
+// tagasta kasutajale lause koos selle lemmiknimega, adresseerides seda järjendist[]
+
+int[] arvumassiiv = [0,0,0];
+                       //^
+                       //2 - teise elemendi sisu/asukoht
+arvumassiiv[2] = 1;
